@@ -26,9 +26,10 @@ end
 summon_captain_planet(summon_the_captain)
 
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(summon_the_captain)# code an argument here
+  summon_the_captain.any?{|conjure| conjure.length > 4} # Your code here
 end
+long_planeteer_calls(summon_the_captain)
 
 def find_the_cheese# code an argument here
   # the array below is here to help
