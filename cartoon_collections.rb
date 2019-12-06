@@ -35,4 +35,8 @@ i_like_cheese = %w[watch quarter mozarella wire]
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  i_like_cheese.find do |possibly_cheese|
+    cheese_types.include?(possibly_cheese)
+  end
 end
+find_the_cheese(i_like_cheese)
