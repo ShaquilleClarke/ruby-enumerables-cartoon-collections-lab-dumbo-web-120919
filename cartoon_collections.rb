@@ -31,6 +31,7 @@ def long_planeteer_calls(summon_the_captain)# code an argument here
 end
 long_planeteer_calls(summon_the_captain)
 
+i_like_cheese = %w[watch quarter mozarella wire]
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
